@@ -27,7 +27,7 @@ Ensure you have **Node.js** installed on your system.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/todo-list-app.git
+    git clone https://github.com/mannatgupta146/SimpleToDoList.git
     ```
 
 2. Navigate to the project directory:
