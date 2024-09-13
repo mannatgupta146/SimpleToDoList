@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #new-todo-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  #new-todo-form label {
+    font-weight: bold;
+  }
+  
+  #todo-input {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul#list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  .list-item-label {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .list-item-label input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .list-item-label span {
+    flex: 1;
+  }
+  
+  button[data-button-delete] {
+    background-color: #dc3545;
+    margin-left: 10px;
+  }
+  
+  button[data-button-delete]:hover {
+    background-color: #c82333;
+  }
+  @media (max-width: 600px) {
+    #new-todo-form, .list-item {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
